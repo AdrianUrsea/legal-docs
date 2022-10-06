@@ -191,28 +191,21 @@
     ]
   },
   "firefox_privacy_notice.md": {
-    "count": 20,
+    "count": 13,
     "locales": [
-      "ar",
       "cs",
       "de",
       "es-ES",
-      "es-MX",
       "fr",
-      "hi",
       "hu",
       "id",
       "it",
       "ja",
-      "ko",
       "nl",
       "pl",
       "pt-BR",
       "ru",
-      "tr",
-      "vi",
-      "zh-CN",
-      "zh-TW"
+      "zh-CN"
     ]
   },
   "firefox_relay_privacy_notice.md": {
@@ -261,25 +254,41 @@
     ]
   },
   "mdn_plus_privacy.md": {
-    "count": 6,
+    "count": 14,
     "locales": [
+      "cs",
       "de",
       "es-ES",
       "fr",
+      "hu",
+      "id",
       "it",
+      "ja",
       "ms",
-      "nl"
+      "nl",
+      "pl",
+      "pt-BR",
+      "ru",
+      "zh-CN"
     ]
   },
   "mdn_plus_terms.md": {
-    "count": 6,
+    "count": 14,
     "locales": [
+      "cs",
       "de",
       "es-ES",
       "fr",
+      "hu",
+      "id",
       "it",
+      "ja",
       "ms",
-      "nl"
+      "nl",
+      "pl",
+      "pt-BR",
+      "ru",
+      "zh-CN"
     ]
   },
   "mozilla_privacy_policy.md": {
@@ -329,12 +338,13 @@
     ]
   },
   "websites_privacy_notice.md": {
-    "count": 12,
+    "count": 13,
     "locales": [
       "cs",
       "de",
       "es-ES",
       "fr",
+      "hu",
       "id",
       "it",
       "ja",
