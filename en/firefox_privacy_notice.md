@@ -1,7 +1,7 @@
 ## <span class="privacy-header-firefox">Firefox</span> <span class="privacy-header-policy">Privacy Notice</span>
 
-*Effective March 10, 2022*
-{: datetime="2022-03-10" }
+*Effective August 1, 2022*
+{: datetime="2022-08-01" }
 
 ## At Mozilla, we believe that privacy is fundamental to a healthy internet.
 
@@ -17,7 +17,7 @@ In this Privacy Notice, we explain what data Firefox shares and point you to set
 
 * __Technical data__: Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us.  When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
 
-Read the telemetry documentation for [Desktop](https://firefox-source-docs.mozilla.org/toolkit/components/telemetry/telemetry/index.html), [Android](https://dictionary.telemetry.mozilla.org/apps/fenix), or [iOS](https://github.com/mozilla-mobile/firefox-ios/wiki/Telemetry) or learn how to opt-out of this data collection on [Desktop](https://support.mozilla.org/kb/share-data-mozilla-help-improve-firefox) and [Mobile](https://support.mozilla.org/kb/send-usage-data-firefox-mobile-browsers).
+Read the telemetry documentation for [Desktop](https://firefox-source-docs.mozilla.org/toolkit/components/telemetry/telemetry/index.html), [Android](https://dictionary.telemetry.mozilla.org/apps/fenix), or [iOS](https://dictionary.telemetry.mozilla.org/apps/firefox_ios) or learn how to opt-out of this data collection on [Desktop](https://support.mozilla.org/kb/share-data-mozilla-help-improve-firefox) and [Mobile](https://support.mozilla.org/kb/send-usage-data-firefox-mobile-browsers).
 {: #telemetry }
 
 ### Search {: #defaultsearch }
@@ -26,7 +26,12 @@ You can perform searches directly from several places in Firefox, including the 
 
 * __Location data__: When you first use Firefox, it uses your IP address to set your default search provider based on your country. [Learn more](https://support.mozilla.org/kb/change-your-default-search-settings-firefox).
 
-* __Search queries__: Firefox by default sends search queries to your search provider to help you discover common phrases other people have searched for and improve your search experience if your selected search provider supports search suggestions. [Learn more](https://support.mozilla.org/kb/search-suggestions-firefox), including how to disable this feature. If you enable Firefox Suggest, we and our partners may also receive your search queries. [Learn more below](#searches). 
+* __Search queries__: Firefox by default sends search queries to your search provider to help you discover common phrases other people have searched for and improve your search experience if your selected search provider supports search suggestions. [Learn more](https://support.mozilla.org/kb/search-suggestions-firefox), including how to disable this feature. Links to our default search providers are:
+
+  * [Google](https://policies.google.com/privacy)
+  * [Microsoft (Bing)](https://privacy.microsoft.com/privacystatement)
+
+* If you enable "Improve the Firefox Suggest Experience," we and our partners may also receive your search queries. [Learn more below](#searches). 
 
 ### Recommend relevant content
 
@@ -51,6 +56,8 @@ Firefox displays content, such as Add-on Recommendations, Top Sites (websites su
 * [__Cloudflare__](https://developers.cloudflare.com/1.1.1.1/privacy/firefox/)
 * [__NextDNS__](https://nextdns.io/privacy)
 * [__Comcast__](https://www.xfinity.com/privacy/policy/dns)
+* [__CIRA__](https://www.cira.ca/cybersecurity-services/canadian-shield/privacy)
+* [__Shaw__](https://www.shaw.ca/dns-statement)
 
 **Technical data for updates**: Desktop versions of Firefox check for browser updates by persistently connecting to Mozilla servers. Your Firefox version, language, and device operating system are used to apply the correct updates. Mobile versions of Firefox may connect to another service if you used one to download and install Firefox. [Learn more](https://support.mozilla.org/kb/how-stop-firefox-automatically-making-connections#w_auto-update-checking).
 {: #auto-updates }
@@ -79,28 +86,28 @@ Read the full documentation [here](https://firefox-source-docs.mozilla.org/toolk
 
     _On Desktop_: Firefox by default sends Mozilla HTTP data that may be included with Firefox’s installer.  This enables us to determine the website domain or advertising campaign (if any) that referred you to our download page. Read the [documentation](https://firefox-source-docs.mozilla.org/toolkit/components/telemetry/telemetry/data/environment.html#attribution) or [opt-out](https://support.mozilla.org/kb/desktop-privacy) before installation.
 
-    _On Mobile_: Firefox for iOS and Android by default send mobile campaign data to Adjust, our analytics vendor, which has its own [privacy policy](https://www.adjust.com/terms/privacy-policy/).  Mobile campaign data includes a Google advertising ID, IP address, timestamp, country, language/locale, operating system, and app version. Read the [documentation](https://dictionary.telemetry.mozilla.org/apps/fenix?itemType=metrics&page=1&search=adjust).
+    _On Mobile_: Firefox for iOS and Android by default send mobile campaign data to Adjust, our analytics vendor, which has its own [privacy policy](https://www.adjust.com/terms/privacy-policy/).  Mobile campaign data includes a Google advertising ID or Android ID, IP address, timestamp, country, language/locale, operating system, and app version. Read the [documentation](https://dictionary.telemetry.mozilla.org/apps/fenix?itemType=metrics&page=1&search=adjust).
 {: #thirdparty }
-
----
-
-## If you use these features, Firefox will share data to provide you functionality and help us improve our products and services: {: #optional-features }
 
 ### Firefox Suggest and Top Pick {: #searches }
 
 Mozilla is developing a new feature that helps deliver you better information with less effort. It’s called Firefox Suggest and an early version of it is currently available to users in the United States. By default, Firefox Suggest shows you recommended and sponsored content based on local data stored on your own computer, such as websites from your browsing history, bookmarks and open tabs. 
 
-If you choose to enable "Smarter Suggestions," Firefox shares the following information to improve your browsing experience and to improve the service:
+* __Sites you visit__: Firefox sends Mozilla which suggestions you click or dismiss and Mozilla may share that data with its [partners](https://support.mozilla.org/kb/firefox-suggest#w_who-are-mozillas-partners).
 
-* __Searches__: Firefox sends Mozilla what you type into the search bar and Mozilla may share that data with its [partners](https://support.mozilla.org/kb/firefox-suggest?as=u&utm_source=inproduc#w_who-are-mozillas-partners). 
+* __Location data__: Firefox temporarily sends Mozilla your IP address which we use to suggest content based on your country, state, and city. Mozilla may share location information with our partners, but partners will not receive your IP address. 
 
-* __Sites you visit__: For the Suggestions you click, Firefox sends Mozilla the website URL, and Mozilla may share that data with its [partners](https://support.mozilla.org/kb/firefox-suggest?as=u&utm_source=inproduc#w_who-are-mozillas-partners).
+* __Technical & interaction data__: Firefox sends Mozilla data such as the number of times Firefox suggests or displays content and your clicks on that content, as well as basic data about your interactions with Firefox Suggest. Mozilla shares information with our [partners](https://support.mozilla.org/kb/firefox-suggest#w_who-are-mozillas-partners) about how many times suggestions are shown and clicked for verification and feature improvement. 
 
-* __Location data__: Firefox sends Mozilla your IP address which we use to suggest content based on your country, state, and city. Mozilla may share location information with our partners, but partners will not receive your IP address. 
+If you choose to enable "Improve the Firefox Suggest Experience," Firefox shares the following information to improve your browsing experience and to improve the service:
 
-* __Technical & interaction data__: Firefox sends Mozilla data such as the number of times Firefox suggests or displays content and your clicks on that content, as well as basic data about your interactions with Firefox Suggest. Mozilla shares information with our [partners](https://support.mozilla.org/kb/firefox-suggest?as=u&utm_source=inproduc#w_who-are-mozillas-partners) about how many times suggestions are shown and clicked for verification and feature improvement. 
+* __Searches__: Firefox sends Mozilla what you type into the search bar and Mozilla may share that data with its [partners](https://support.mozilla.org/kb/firefox-suggest#w_who-are-mozillas-partners). 
 
 We take measures to limit our and our partners’ ability to identify you. [Learn more](https://support.mozilla.org/kb/firefox-suggest?as=u&utm_source=inproduc).
+
+---
+
+## If you use these features, Firefox will share data to provide you functionality and help us improve our products and services: {: #optional-features }
 
 ### Firefox Accounts
 
